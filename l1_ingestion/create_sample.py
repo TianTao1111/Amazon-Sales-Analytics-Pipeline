@@ -6,13 +6,13 @@ THIS_DIR= Path(__file__).resolve().parent
 PROJECT_ROOT = THIS_DIR.parent
 
 
-RAW_PATH = PROJECT_ROOT/"data/raw/Amazon Sale Report.csv"
-SAMPLE_PATH = PROJECT_ROOT/"data/sample/amazon_sample.csv"
+RAW_PATH = PROJECT_ROOT/"data"/"raw"
+SAMPLE_PATH = PROJECT_ROOT/"data"/"sample"
 
 
 
-df = pd.read_csv(RAW_PATH)
-df.head(1000).to_csv(SAMPLE_PATH, index=False)
+df = pd.read_csv(RAW_PATH/"Amazon Sale Report.csv")
+df.head(1000).to_csv(SAMPLE_PATH/"amazon_sample.csv", index=False)
 
 print("Sample created!")
 print(f"Raw file: {RAW_PATH}")

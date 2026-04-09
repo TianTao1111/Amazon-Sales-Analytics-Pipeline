@@ -10,7 +10,7 @@ __pycache__/
 # Data files
 data/raw/
 data/sample/
-logs/
+
 
 # Notebooks
 *.ipynb
@@ -19,6 +19,7 @@ logs/
 *.json
 
 # dbt
+dbt/logs/
 dbt/target/
 dbt/models/example
 dbt/dbt_packages/

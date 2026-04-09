@@ -12,7 +12,7 @@ RAW_PATH = PROJECT_ROOT/"data"/"raw"
 # BigQuery setting
 PROJECT_ID = "amazon-sales-490621"
 DATASET_ID = "ecommerce"
-TABLE_NAME = "raw_data"
+TABLE_NAME = "raw_amazon_sales"
 
 client = bigquery.Client(project=PROJECT_ID)
 
