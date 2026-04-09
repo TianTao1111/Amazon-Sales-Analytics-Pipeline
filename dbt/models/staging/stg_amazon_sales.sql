@@ -1,7 +1,7 @@
 with source as (
     SELECT 
     *
-    FROM {{source('ecommerce','raw_data')}}
+    FROM {{source('ecommerce','raw_amazon_sales')}}
 ),
 
 renamed as (
@@ -39,7 +39,7 @@ cleaned as(
     SELECT 
     *
     FROM renamed
-    where order_id is not null
+    WHERE order_id is not null
         and order_date is not null
         and category is not null
         and quantity is not null

@@ -5,4 +5,4 @@ sources:
   database: amazon-sales-490621
   schema: ecommerce
   tables:
-    - name: raw_data
+    - name: raw_amazon_sales

@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: mart_category_monthly_sales_growth
+    description: >
+      Monthly sales performance by product category, including total sales,
+      total quantity, order count, average order value, and month-over-month sales growth.
+
+    columns:
+      - name: year_month
+        description: "Month of the order in YYYY-MM format."
+        tests:
+           - not_null
+
+      - name: category
+        description: "Product category."
+        tests:
+          - not_null
+
+      - name: total_sales
+        description: "Total sales amount for the category in the given month."
+        tests:
+            - not_null
+
+      - name: total_qty
+        description: "Total quantity sold for the category in the given month."
+        tests:
+          - not_null
+
+      - name: order_count
+        description: "Number of distinct orders for the category in the given month."
+        tests:
+          - not_null
+
+      - name: avg_order_value
+        description: "Average order value, calculated as total sales divided by distinct order count."
+
+      - name: previous_month_sales
+        description: "Total sales of the same category in the previous month."
+
+      - name: sales_mom_growth_pct
+        description: "Month-over-month sales growth percentage for the category."
