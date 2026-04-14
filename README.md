@@ -1,7 +1,7 @@
 
 
 
-# # Amazon Sales Analytics Pipeline
+## Amazon Sales Analytics Pipeline
 A modern end-to-end data pipeline project built with **Python, BigQuery, and dbt**, designed to transform raw e-commerce sales data into business-ready analytical marts. 
 
 
