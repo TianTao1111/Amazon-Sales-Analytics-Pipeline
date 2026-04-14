@@ -134,7 +134,7 @@ Gold+: mart_category_monthly_sales_growth
 ```text
 Markdown
 
-Data_Pipeline_Project/
+Amazon Sales Analytics Pipeline/
 │
 ├── ingestion/
 │   ├── create_sample.py
