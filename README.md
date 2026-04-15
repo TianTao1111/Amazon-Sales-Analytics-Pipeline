@@ -12,7 +12,7 @@ This project demonstrates a full **data engineering + analytics engineering work
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Business Objective](#business-objective)
-3. [Pipeline Flow / Data Architecture](#pipeline-flow&data-architecture)
+3. [Pipeline Flow and Data Architecture](#pipeline-flow-and-data-architecture)
 4. [Tech Stack](#tech-stack)
 5. [Project Structure](#project-structure)
 6. [Data Pipeline Layers](#data-pipeline-layers)
