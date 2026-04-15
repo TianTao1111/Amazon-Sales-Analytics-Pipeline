@@ -12,18 +12,17 @@ This project demonstrates a full **data engineering + analytics engineering work
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Business Objective](#business-objective)
-3. [Pipeline Flow and Data Architecture](#pipeline-flow-and-data-architecture)
-4. [Tech Stack](#tech-stack)
+3. [Tech Stack](#tech-stack)
+4. [Pipeline Architecture](#pipeline-architecture)
 5. [Project Structure](#project-structure)
-6. [Data Pipeline Layers](#data-pipeline-layers)
-7. [Key Analytical Outputs](#key-analytical-outputs)
+6. [Key Analytical Outputs](#key-analytical-outputs)
+7. [Data Quality and Documentation](#data-quality-and-documentation)
 8. [How to Run](#how-to-run)
-9. [Key Learnings](#key-learnings)
+9. [Key Learnings Outcomes](#key-learnings)
 10. [Future Improvements](#future-improvements)
 
----
 
-## 1. Project Overview
+## Project Overview
 
 This project simulates a real-world e-commerce Amazon sales analytics pipeline.
 
@@ -39,7 +38,7 @@ Final outputs include:
 
 ---
 
-## 2. Business Objective
+## Business Objective
 
 The goal of this project is to answer key business questions such as:
 
@@ -56,7 +55,20 @@ This mirrors real-world use cases in:
 
 ---
 
-## 3. Pipeline Flow & Data Architecture
+
+## Tech Stack
+
+- **Python** → ingestion & loading
+- **Pandas** → sample generation
+- **BigQuery** → cloud data warehouse
+- **dbt** → transformation & data modeling
+- **SQL** → staging + mart layer modeling
+- **Git / GitHub** → version control
+- **dbt Docs** → lineage & documentation
+
+---
+
+## Pipeline Architecture
 
 ### Pipeline Flow
 
@@ -118,19 +130,7 @@ Gold+: mart_category_monthly_sales_growth
 
 --- 
 
-## 4. Teck Stack
-
-- **Python** → ingestion & loading
-- **Pandas** → sample generation
-- **BigQuery** → cloud data warehouse
-- **dbt** → transformation & data modeling
-- **SQL** → staging + mart layer modeling
-- **Git / GitHub** → version control
-- **dbt Docs** → lineage & documentation
-
----
-
-## 5. Project Structure
+## Project Structure
 ```text
 Markdown
 
@@ -156,7 +156,7 @@ Amazon Sales Analytics Pipeline/
 
 ---
 
-## 6. Key Analytical Outputs
+## Key Analytical Outputs
 
 ### Monthly Category Sales Mart
 Includes:
@@ -193,7 +193,7 @@ This allows trend monitoring across product categories.
 
 ---
 
-## 7. Data Quality Tests
+## Data Quality and Documentation
 Implemented dbt tests for 
 - not_null
 - uniqueness
@@ -209,7 +209,7 @@ tests:
 
 ---
 
-## 8. Documentation &Lineage
+## Documentation &Lineage
 dbt docs was generated to visualize model lineage:
 ```
 raw_amazon_sales
@@ -223,7 +223,7 @@ mart_category_monthly_sales_growth
 
 ---
 
-## 9. How to Run
+## How to Run
 ### Python ingestion
 ```
 Bash
@@ -256,7 +256,7 @@ dbt docs serve
 ---
 
 
-## 10. Key Learnings Outcomes
+## Key Learnings Outcomes
 This project demonstrates:
 - ETL/ELT pipeline development
 - Clould warehouse integration
@@ -272,7 +272,7 @@ This project demonstrates:
 ---
 
 
-## 11. Further improvements
+## Further improvements
 Potential next steps:
 
 - Automated pipeline orchestration (Airflow) 
