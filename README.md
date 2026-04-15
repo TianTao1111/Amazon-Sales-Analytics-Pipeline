@@ -10,16 +10,16 @@ This project demonstrates a full **data engineering + analytics engineering work
 ---
 
 ## Table of Contents
-1. [Project Overview](#project_overview)
-2. [Business Objective](#business_objective)
-3. [Pipeline Flow / Data Architecture](#pipeline_flow&data_architecture)
-4. [Tech Stack](#tech_stack)
-5. [Project Structure](#project_structure)
-6. [Data Pipeline Layers](#data_pipeline_layers)
-7. [Key Analytical Outputs](#key_analytical_outputs)
-8. [How to Run](#how_to_run)
-9. [Key Learnings](#key_learnings)
-10. [Future Improvements](#future_improvements)
+1. [Project Overview](#project-overview)
+2. [Business Objective](#business-objective)
+3. [Pipeline Flow / Data Architecture](#pipeline-flow&data-architecture)
+4. [Tech Stack](#tech-stack)
+5. [Project Structure](#project-structure)
+6. [Data Pipeline Layers](#data-pipeline-layers)
+7. [Key Analytical Outputs](#key-analytical-outputs)
+8. [How to Run](#how-to-run)
+9. [Key Learnings](#key-learnings)
+10. [Future Improvements](#future-improvements)
 
 ---
 
