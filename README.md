@@ -21,6 +21,7 @@ This project demonstrates a full **data engineering + analytics engineering work
 9. [Key Learnings Outcomes](#key-learnings)
 10. [Future Improvements](#future-improvements)
 
+---
 
 ## Project Overview
 
@@ -175,7 +176,6 @@ Includes:
 
 ![Mart Output](images/mart_growth_preview.png)
 
----
 
 
 ### Business Insights Example
