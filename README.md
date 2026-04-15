@@ -194,6 +194,8 @@ This allows trend monitoring across product categories.
 ---
 
 ## Data Quality and Documentation
+
+### Data quality test in dbt
 Implemented dbt tests for 
 - not_null
 - uniqueness
@@ -207,9 +209,9 @@ tests:
     - not_null
 ```
 
----
 
-## Documentation &Lineage
+
+### Documentation & Lineage
 dbt docs was generated to visualize model lineage:
 ```
 raw_amazon_sales
